@@ -413,28 +413,11 @@ body {
   border-radius: 30px;
 }
 
-.nutxemthem {
-  margin-top: 10px;
-}
 
-.dong1 {
-  background-color: orange;
-  height: 2px;
-  width: 200px
-}
 
-.dong2 {
-  background-color:
-    grey;
-  height: 2px;
-  width: 100%
-}
 
-.dong {
-  display: flex;
-  margin-bottom: 20px;
 
-}
+
 
 .hotline i {
   transform: rotate(-45deg);
@@ -531,27 +514,37 @@ body {
 
 .goingay {
   background-color: #ef8a25;
-  width: 170px;
   text-align: center;
   border-radius: 20px;
   color: #ffffff;
   margin-top: 20px;
   margin-left: 300px;
-  margin-bottom: 20px;
-  height: 30px;
+  margin-bottom: 8px;
+  padding: 10px;
+  width: 120px;
+}
+.goingay text{
+  position: absolute;
+  text-align: center;
+
 
 }
 
 .lienhe {
   margin-left: 100px;
   margin-bottom: 20px;
-  width: 170px;
+  width: 120px;
   text-align: center;
   color: orange;
   border-radius: 20px;
   border: 1px solid orange;
   margin-top: -49px;
-  height: 30px;
+  padding: 10px;
+}
+.lienhe text{
+  position: absolute;
+  text-align: center;
+
 }
 
 .thongtinsanpham {
@@ -593,16 +586,19 @@ body {
 }
 
 .xemthem {
-  background-color: orange;
-  width: 150px;
+  background-color: #ef8a25;
   text-align: center;
-  height: 30px;
   border-radius: 20px;
-  margin: 0 auto;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-bottom: 8px;
+  padding: 10px;
+  width: 120px;
+}
+.xemthem text{
+  margin-left: 5px;
+  text-align: center;
 }
 .hotline-phone-ring-wrap {
   position: fixed;
@@ -779,4 +775,7 @@ body {
   .hotline-bar {
     display: none;
   }
+}
+.container{
+  width: 1230px;
 }
